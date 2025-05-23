@@ -16,11 +16,11 @@ This is a web-based Email Spam Classifier built using **Flask** and trained with
 
 ## 📸 Screenshots
 
-### 🔷 Home Page
+### 🔷 Prediction Example 1
 
 ![Screenshot1](screenshot1.png)
 
-### 🔷 Prediction Example
+### 🔷 Prediction Example 2
 
 ![Screenshot2](screenshot2.png)
 
@@ -35,10 +35,11 @@ This is a web-based Email Spam Classifier built using **Flask** and trained with
 
 ---
 
-## 🗂️ Project Structure
+## 📁 Project Structure
 
-📁 email-spam-classifier/
-│
+
+```plaintext
+email-spam-classifier/
 │
 ├── models/
 │   ├── logreg_model.pkl          # Trained Logistic Regression model
@@ -48,17 +49,17 @@ This is a web-based Email Spam Classifier built using **Flask** and trained with
 │   └── email-spam-classifier.ipynb  # Jupyter Notebook for training and experimentation
 │
 ├── static/
-│   └── style.css                 # CSS styling for the web app
+│   └── style.css                # CSS styling for the web interface
 │
 ├── templates/
-│   └── index.html                # HTML template for Flask frontend
+│   └── index.html               # HTML template for Flask frontend
 │
-├── app.py                        # Flask application script
-├── email.csv                     # Dataset file (bag-of-words format)
-├── README.md                     # Project documentation
-├── screenshot1.png               
-├── screenshot2.png               
-
+├── app.py                       # Flask application script
+├── email.csv                    # Dataset in bag-of-words format
+├── README.md                    # Project documentation
+├── screenshot1.png              # UI Screenshot 1
+└── screenshot2.png              # UI Screenshot 2
+```
 
 
 ---
